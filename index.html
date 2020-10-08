@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nice Pizza</title>
+        <style>
+            body{
+                background-image: url("pizza.jpg");
+                background-size: cover;
+            }
+            form{
+                color: yellow;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h1{
+                color: yellowgreen;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Submit your order here</h1>
+        <!------Input Boxes------->
+        <form>
+            <fieldset>
+                <legend>
+                    User Information
+                </legend>
+                <input type="text" id="Username">
+                <label for="Username">Username</label><br>
+                <input type="text" id="Password">
+                <label for="Password">Password</label><br>
+            </fieldset>
+            <!-----Radio Buttons----->
+        <form>
+            <fieldset>
+                <legend>Drinks</legend>
+                <input type="radio" id="Drinks" value="Sprite">
+                <label for="Drinks">Sprite</label><br>
+                <input type="radio" id="Drinks" value="Pepsi">
+                <label type="Drinks">Pepsi</label><br>
+                <input type="radio" id="Drinks" value="Root Beer">
+                <label for="Drinks">Root Beer</label><br>
+                <input type="radio" id="Drinks" value="Water">
+                <label for="Drinks">Water</label><br>
+
+            </fieldset>
+        </form>
+            <!----Checkboxes---->
+        <form>
+            <fieldset>
+                <legend>Pizza preference</legend>
+                <input type="checkbox" id="Pizza" value="Cheese">
+                <label for="Pizza">Cheese</label><br>
+                <input type="checkbox" id="Pizza" value="Pepperoni">
+                <label for="Pizza">Pepperoni</label><br>
+                <input type="checkbox" id="Pizza" value="Chicken">
+                <label type="Pizza">Chicken</label><br>
+                <input type="checkbox" id="Pizza" value="Sausage">
+                <label for="Pizza">Sausage</label><br>
+            </fieldset>
+                        
+        
+        </form>
+        <!-----Text area---->
+        <form>
+            <fieldset>
+                <legend>Special Instructions</legend>
+
+                <!-----Submit Button---->
+                
+                <textarea name="Special Instructions"  cols="40" rows="10"></textarea>
+                <p><class=<button>
+                    <button type="submit">Submit order</button>
+                </button></p>
+            </fieldset>
+        </form>
+
+        </form>
+        <img src="pizza.gif" width="200" length="200">
+    </body>
+</html>
+
